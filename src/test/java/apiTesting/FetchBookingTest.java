@@ -17,6 +17,7 @@ public class FetchBookingTest {
 	  Response response = RestAssured.get("/booking/2");
 	  int statusCode = response.getStatusCode();
 	  Assert.assertEquals(statusCode, 200);
+	  System.out.println("status is 200");
 	  Assert.assertEquals(response.getContentType(), "application/json; charset=utf-8");
 	  
 	  //Retrieve the body of the response
