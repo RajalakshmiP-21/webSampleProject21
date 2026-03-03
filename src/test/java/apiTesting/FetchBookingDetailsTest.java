@@ -23,6 +23,7 @@ public void getBookingDetails() {
 	  JsonPath jsonPathEvaluator = response.jsonPath();
 	  String fname = jsonPathEvaluator.get("firstname");
 	  Assert.assertEquals(fname, "Jim");
+	  System.out.println("name assertion works fine");
 	  Assert.assertEquals(jsonPathEvaluator.get("additionalneeds"), "Breakfast");
 	  
   }
