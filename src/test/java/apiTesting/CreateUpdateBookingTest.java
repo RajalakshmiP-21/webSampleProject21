@@ -24,6 +24,7 @@ public class CreateUpdateBookingTest {
 			  .post("/booking");
 	  System.out.println(resp.getStatusCode());
 	  Assert.assertEquals(resp.getStatusCode(),200);
+	  System.out.println("Assert validation Done - 200 respone code");
 	  System.out.println(resp.getStatusLine());
 	  System.out.println(resp.getBody().prettyPrint());
 	  JsonPath jsonPathEvaluator = resp.jsonPath();
