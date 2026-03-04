@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apiTesting.CreateUpdateBookingTest">
+      <class name="testScripts.UploadImageExtentReportTest">
         <methods>
-          <include name="deleteBooking"/>
+          <include name="setupExtent"/>
+          <include name="teardown"/>
+          <include name="downloadTest"/>
+          <include name="setup"/>
+          <include name="finishExtent"/>
         </methods>
-      </class> <!-- apiTesting.CreateUpdateBookingTest -->
+      </class> <!-- testScripts.UploadImageExtentReportTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
