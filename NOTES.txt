@@ -1,0 +1,12 @@
+Token: Classic: 
+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
+
+Github:
+Username: RajalakshmiP-21
+Password: Shiva1993$
+
+Jenkins: administrtaion:
+7fc41f4bf8934e2e9d18c20fba7a3f52
+
+localhost:8080
+admin and admin
