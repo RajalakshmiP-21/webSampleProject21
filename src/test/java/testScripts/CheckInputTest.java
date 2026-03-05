@@ -64,7 +64,7 @@ public class CheckInputTest {
 	  sunday.click();
 	  SoftAssert softassert = new SoftAssert();
 	  softassert.assertTrue(sunday.isSelected());
-	  System.out.println("Value of Sunday"+sunday.getDomAttribute(null));
+	  System.out.println("Value of Sunday..."+sunday.getDomAttribute(""));
 	  
 	  monday.click();
 	  if(sunday.isSelected()) {
